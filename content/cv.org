@@ -1,0 +1,83 @@
+#+TITLE: Martin Brignall
+#+ATTR_HTML: :width 250px
+[[file:./img/mbrignl.jpeg]]
+#+OPTIONS: toc:nil num:nil author:nil html-postamble:nil
+#+SETUPFILE: ../style.css.org
+
+#+BEGIN_CENTER
+󰊫 [[mailto:martinaloysiusbrignall@gmail.com][email]]  | 󰊤 [[https://github.com/mbrignall][github]]  | 󰄜 07766027602 
+
+~112 Aubrey Road, Bristol, BS3 3EU~
+#+END_CENTER
+
+* ABOUT ME
+
+Over the past 5 years, I have honed my skills in the DevOps/DevSecOps space. I currently
+work as a Cyber Defence Engineer as escalated Incident Response. We deal with reports/alerts
+as broad as phishing/business email compromise to GuardDuty alerting or malware. I have a strong
+interest in the software developement pipeline. I love learning, and use self development to
+increase my understanding.
+
+* EXPERIENCE
+
+** *OVO Energy*, Bristol - Cyber Defence Engineer
+~May 2024 to Present~
+   - Building a bond between ticketing system of our MSSP and OVO (saving 30k)
+   - Working with leading technologies in SOC/Threat Detection/SIEM
+     - Google Chronicle/Workspace/SecOps 
+     - Sublime Email Security
+     - CrowdStrike
+     - GuardDuty
+     - Tines (Security Automation)
+     - Wiz
+   - Escalated Incident Response (Blue Team)
+
+** *OVO Energy*, Bristol - Developer Tooling Specialist
+~August 2022 - May 2024~
+   - Cloud services optimization (AWS, Google Cloud) for
+     scalability, reliability, and targeted cost reduction
+   - Building automated vending for GCP projects as guardrails
+   - Drive DevOps and DevEx practices, streamlining development
+     workflows, and facilitating seamless collaboration between
+     development and operations teams
+   - Champion collaboration and knowledge sharing within the
+     engineering community
+   - Vendor engagement and billing/cost reconciliation
+
+** OVO Energy, Bristol - Enterprise Technology Specialist
+   ~March 2021 - August 2022~
+   - Jira Cloud Administration for all Atlassian products
+   - Introduced zero-touch deployment using Mosyle, a pioneering MDM
+     tool for Apple devices
+   - Linux device management solution including device scripting
+
+** OVO Energy, Bristol - Tech Support Analyst
+   ~June 2019 - August 2022~
+   - Provided technical support and automated Jira projects for
+     enhanced productivity
+   - Service Desk - Front Line Support
+   - Covid Office Cover
+
+* INTERESTS/SKILLS
+- Home Lab | Proxmox | Containers (Docker)
+- WebDev | Django | Python
+- Terraform | Cloudflare
+- NixOS | Linux | Emacs
+- AWS | GCP | Postgres
+
+For the last two years I've been managing a website that supports
+the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]]. This was the perfect opportunity
+to hone my web development skills and I chose to use Django/Python,
+home served using Proxmox and served to the web with Cloudflare. From
+here I began to approach my own CI/CD and automated deployments to
+better understand how best to apply these practices.
+
+* TRAINING
+   - Webdev Bootcamp
+   - AWS Developer 
+   - Jira fundamentals and Atlassian University
+   - Google Labs/ Security Foundations
+   - Immersive Labs
+   - ACE Community Leader
+
+

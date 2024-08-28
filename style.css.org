@@ -1,0 +1,66 @@
+#+OPTIONS: org-html-head-include-default-style:nil
+
+#+HTML_HEAD: <style type="text/css">
+#+HTML_HEAD: html, body {
+#+HTML_HEAD:   background-color: #1c1e26;
+#+HTML_HEAD:   font-size: 14px;
+#+HTML_HEAD:   line-height: 1.5;
+#+HTML_HEAD:   color: #dcdccc;
+#+HTML_HEAD:   font-family: 'FiraMono Nerd Font', monospace;
+#+HTML_HEAD:   margin: 0 auto;
+#+HTML_HEAD:   max-width: 800px;
+#+HTML_HEAD:   padding: 20px;
+#+HTML_HEAD: }
+#+HTML_HEAD: h1 {
+#+HTML_HEAD:   color: #e79686;
+#+HTML_HEAD:   font-size: 2em;
+#+HTML_HEAD:   text-align: center;
+#+HTML_HEAD:   margin-bottom: 0;
+#+HTML_HEAD: }
+#+HTML_HEAD: h2 {
+#+HTML_HEAD:   color: #7ec98f;
+#+HTML_HEAD:   font-size: 1.5em;
+#+HTML_HEAD:   margin-top: 20px;
+#+HTML_HEAD:   margin-bottom: 10px;
+#+HTML_HEAD:   border-bottom: 1px solid #7ec98f;
+#+HTML_HEAD: }
+#+HTML_HEAD: h3 {
+#+HTML_HEAD:   color: #a89bb9;
+#+HTML_HEAD:   font-size: 1.2em;
+#+HTML_HEAD:   margin-top: 10px;
+#+HTML_HEAD:   margin-bottom: 5px;
+#+HTML_HEAD: }
+#+HTML_HEAD: p {
+#+HTML_HEAD:   margin: 10px 0;
+#+HTML_HEAD: }
+#+HTML_HEAD: ul {
+#+HTML_HEAD:   padding-left: 20px;
+#+HTML_HEAD: }
+#+HTML_HEAD: a {
+#+HTML_HEAD:   color: #7ec98f;
+#+HTML_HEAD:   text-decoration: none;
+#+HTML_HEAD: }
+#+HTML_HEAD: a:hover {
+#+HTML_HEAD:   text-decoration: underline;
+#+HTML_HEAD: }
+#+HTML_HEAD: code {
+#+HTML_HEAD:   background-color: #2e3440;
+#+HTML_HEAD:   color: #dcdccc;
+#+HTML_HEAD:   padding: 2px 4px;
+#+HTML_HEAD:   border-radius: 4px;
+#+HTML_HEAD: }
+#+HTML_HEAD: .contact-info {
+#+HTML_HEAD:   text-align: center;
+#+HTML_HEAD:   margin-bottom: 20px;
+#+HTML_HEAD: }
+#+HTML_HEAD: .contact-info p {
+#+HTML_HEAD:   margin: 0.2em 0;
+#+HTML_HEAD: }
+#+HTML_HEAD: .section-title {
+#+HTML_HEAD:   font-weight: bold;
+#+HTML_HEAD:   text-transform: uppercase;
+#+HTML_HEAD:   border-bottom: 2px solid #7ec98f;
+#+HTML_HEAD:   padding-bottom: 0.2em;
+#+HTML_HEAD:   margin-top: 2em;
+#+HTML_HEAD: }
+#+HTML_HEAD: </style>

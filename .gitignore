@@ -1,0 +1,61 @@
+# Emacs backup and autosave files
+*~
+\#*\#
+.#*
+
+# Org-mode temporary files
+*.org~  # Backup files
+*.org_archive  # Archived Org-mode files
+
+# Compiled object files
+*.o
+*.elc
+
+# Emacs packages and settings
+.packages/
+.emacs.d/
+.cache/
+
+# Temporary files and build artifacts
+content/.#*
+content/*~
+
+# Build directory for generated static site
+/public/
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Secrets and sensitive files
+*.pem  # SSH private key files
+*.key  # Any private key files
+*.crt  # SSL certificates
+*.pfx  # PKCS12 certificate files
+*.jks  # Java KeyStore files
+
+# Node modules (if using any Node.js tools)
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# GitHub Actions and workflows
+# (If you have any generated artifacts or local secrets)
+.github/workflows/*.env
+.github/workflows/*.secrets
+
+# Other IDE or OS generated files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
