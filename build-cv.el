@@ -20,7 +20,7 @@
 (require 'org)
 
 ;; Export cv.org to HTML
-(find-file "content/cv.org") ;; Ensure the correct path
+(find-file "content/cv.org") ;; Ensure this is the correct path
 (org-html-export-to-html)
 
 ;; Ensure the 'public' directory exists
@@ -28,7 +28,8 @@
   (make-directory "public"))
 
 ;; Move the generated HTML to the public folder
-(rename-file "content/cv.html" "public/mbcv.html" t)
+;; Correct the source path to the generated HTML file
+(rename-file "cv.html" "public/mbcv.html" t)
 
 ;; Exit Emacs
 (kill-emacs 0)
