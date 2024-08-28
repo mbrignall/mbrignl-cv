@@ -1,16 +1,28 @@
 ;; build-cv.el
 
-;; Set the package installation directory so that packages aren't stored in the
-;; ~/.emacs.d/elpa path.
 (require 'package)
 (setq package-user-dir (expand-file-name "./.packages"))
 (setq package-archives '(("melpa" . "https://melpa.org/packages/")
-                         ("elpa" . "https://elpa.gnu.org/packages/")))
+                         ("gnu" . "https://elpa.gnu.org/packages/")))
 
 ;; Initialize the package system
 (package-initialize)
-(unless package-archive-contents
-  (package-refresh-contents))
+
+;; Attempt to refresh package archives up to 3 times in case of failure
+(let ((attempt 0)
+      (max-attempts 3)
+      success)
+  (while (and (not success) (< attempt max-attempts))
+    (condition-case err
+        (progn
+          (setq attempt (1+ attempt))
+          (unless package-archive-contents
+            (package-refresh-contents))
+          (setq success t))
+      (error
+       (message "Failed to refresh package contents: %s" (error-message-string err))
+       (when (= attempt max-attempts)
+         (error "Exceeded maximum attempts to refresh package archives"))))))
 
 ;; Install Org if not already installed
 (unless (package-installed-p 'org)
