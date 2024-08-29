@@ -33,7 +33,13 @@
              :with-creator t            ;; Include Emacs and Org versions in footer
              :with-toc t                ;; Include a table of contents
              :section-numbers nil       ;; Don't include section numbers
-             :time-stamp-file nil)))    ;; Don't include time stamp in file
+             :time-stamp-file nil)      ;; Don't include time stamp in file
+       (list "org-site:static"
+             :base-directory "./img"    ;; Path to static files
+             :base-extension "jpg\\|jpeg\\|png\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
+             :publishing-directory "./public/img"
+             :recursive t
+             :publishing-function 'org-publish-attachment))) ;; Publish static files
 
 ;; Generate the site output
 (org-publish-all t)
