@@ -32,6 +32,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
+          publish_branch: main
           publish_dir: . # This assumes all files are in the root directory
           keep_files: true
