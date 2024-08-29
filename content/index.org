@@ -71,6 +71,7 @@ increase my understanding.
 - Terraform | Cloudflare
 - NixOS | Linux | Emacs
 - AWS | GCP | Postgres
+- Git | Atlassian/Jira
 
 For the last two years I've been managing a website that supports
 the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]]. This was the perfect opportunity
@@ -79,10 +80,10 @@ home served using Proxmox and served to the web with Cloudflare. From
 here I began to approach my own CI/CD and automated deployments to
 better understand how best to apply these practices.
 
-* TRAINING
+* TRAINING/OTHER
    - Webdev Bootcamp
    - AWS Developer 
    - Jira fundamentals and Atlassian University
    - Google Labs/ Security Foundations
    - Immersive Labs
-   - ACE Community Leader
+   - Atlassian Community Leader
