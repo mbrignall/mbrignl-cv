@@ -43,9 +43,14 @@
 #+HTML_HEAD: a:hover {
 #+HTML_HEAD:   text-decoration: underline;
 #+HTML_HEAD: }
-#+HTML_HEAD:.center {
-#+HTML_HEAD:  text-align: center;
-#+HTML_HEAD:}
+#+HTML_HEAD: .center {
+#+HTML_HEAD:   text-align: center;
+#+HTML_HEAD: }
+#+HTML_HEAD: img.center {
+#+HTML_HEAD:   display: block;
+#+HTML_HEAD:   margin-left: auto;
+#+HTML_HEAD:   margin-right: auto;
+#+HTML_HEAD: }
 #+HTML_HEAD: code {
 #+HTML_HEAD:   background-color: #2e3440;
 #+HTML_HEAD:   color: #dcdccc;
