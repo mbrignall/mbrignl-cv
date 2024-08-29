@@ -20,7 +20,7 @@ The CV is written in Org mode and automatically converted to HTML and PDF using 
 
 You can view the latest version of my CV in PDF format by clicking the link below:
 
-[[file:public/mbcv.pdf][Download CV (PDF)]]
+[[file:cv.pdf][Download CV (PDF)]]
 
 * License
 
