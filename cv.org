@@ -2,7 +2,7 @@
 #+ATTR_HTML: :width 250px
 [[file:./img/mbrignl.jpeg]]
 #+OPTIONS: toc:nil num:nil author:nil html-postamble:nil
-#+SETUPFILE: ../style.css.org
+#+SETUPFILE: ./style.css.org
 
 #+BEGIN_CENTER
 󰊫 [[mailto:martinaloysiusbrignall@gmail.com][email]]  | 󰊤 [[https://github.com/mbrignall][github]]  | 󰄜 07766027602 
