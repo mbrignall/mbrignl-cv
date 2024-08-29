@@ -22,7 +22,9 @@ jobs:
           keep_files: true
           commit_message: "Knit: Updated CV export"
 
-          uses: markwilson/html2pdf@v1.0
-          with:
-            htmlPath: 'cv.html'
-            pdfName: 'resume'
+      - name: html to pdf
+        uses: fifsky/html-to-pdf-action@master
+        with:
+          htmlFile: ./cv.html
+          outputFile: ./resume.pdf
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
