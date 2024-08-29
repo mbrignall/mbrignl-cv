@@ -6,14 +6,12 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css">
 #+SETUPFILE: ../style.css.org
 
-#+BEGIN_HTML
-<div style="text-align: center;">
-  <p>
-    󰊫 [[mailto:martinaloysiusbrignall@gmail.com][email]]  | 󰊤 [[https://github.com/mbrignall][github]]  | 󰄜 07766027602
-  </p>
-  <p>~112 Aubrey Road, Bristol, BS3 3EU~</p>
-</div>
-#+END_HTML
+#+ATTR_HTML: :class center
+- 󰊫 [[mailto:martinaloysiusbrignall@gmail.com][email]]  | 󰊤 [[https://github.com/mbrignall][github]]  | 󰄜 07766027602 
+
+#+ATTR_HTML: :class center
+- ~112 Aubrey Road, Bristol, BS3 3EU~
+
 
 * ABOUT ME
 
