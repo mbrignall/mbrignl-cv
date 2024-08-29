@@ -13,20 +13,17 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Fetch full history for deployment
+          fetch-depth: 0  # Fetch full history to ensure proper commit history
 
       - name: Export Org files to HTML
         uses: tecosaur/org-knit-action@v0.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           export: html
-          files: cv.org
+          files: index.org
           keep_files: false
           branch: gh-pages
           commit_message: "Deploy: Updated CV export for GitHub Pages"
-
-      - name: Rename cv.html to index.html
-        run: mv cv.html index.html
 
       - name: Ensure files are present for GitHub Pages
         run: ls -la

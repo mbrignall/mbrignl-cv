@@ -1,27 +1,24 @@
-#+TITLE: mbrignl CV repo
+#+TITLE: mbrignl CV Repository
 #+AUTHOR: Martin Brignall
 #+OPTIONS: toc:nil
 
 * About This Repository
 
-This repository contains the source files and configuration for generating my CV in both HTML and PDF formats.
-
-The CV is written in Org mode and automatically converted to HTML and PDF using Emacs and GitHub Actions upon each commit to the main branch.
+This repository contains the source files and configuration for generating my CV in HTML format using Org mode. The HTML version is automatically deployed to GitHub Pages, and the PDF version can be generated manually if needed.
 
 * How It Works
 
-1. *Org File*: The CV is authored in an Org file located in the =content= directory.
+1. *Org File*: The CV is authored in an Org file named =index.org= located at the root of this repository.
 2. *GitHub Actions*: On every push to the main branch, a GitHub Actions workflow:
-   - Converts the Org file to HTML using Emacs.
-   - Converts the generated HTML to a PDF.
-   - Saves both the HTML and PDF files in the =public= folder.
+   - Converts the Org file (=index.org=) to HTML using Emacs.
+   - Deploys the generated HTML file directly to the =gh-pages= branch for GitHub Pages hosting.
 
 * View the CV
 
-You can view the latest version of my CV in PDF format by clicking the link below:
+You can view the latest version of my CV directly on GitHub Pages by clicking the link below:
 
-[[file:cv.pdf][Download CV (PDF)]]
+[[https://mbrignall.github.io/mbrignl-cv/][View CV (HTML)]]
 
 * License
 
-Feel free to use the setup as a template for your own CVs or documents.
+Feel free to use the setup as a template for your own CVs or documents. All content in this repository is released under the MIT License unless otherwise noted.
