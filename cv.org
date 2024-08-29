@@ -2,6 +2,7 @@
 #+ATTR_HTML: :width 250px
 [[file:./img/mbrignl.jpeg]]
 #+OPTIONS: toc:nil num:nil author:nil html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 #+SETUPFILE: ./style.css.org
 
 #+BEGIN_CENTER
