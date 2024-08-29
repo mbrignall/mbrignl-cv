@@ -10,7 +10,11 @@
 [[file:./img/mbrignl.jpeg]]
 
 #+ATTR_HTML: :class center
-󰊫 [[mailto:martinaloysiusbrignall@gmail.com][email]]  | 󰊤 [[https://github.com/mbrignall][github]]  | 󰄜 07766027602 
+<div class="center">
+  @@html:<i class="fa fa-envelope"></i>@@ [[mailto:martinaloysiusbrignall@gmail.com][email]]  | 
+  @@html:<i class="fa fa-github"></i>@@ [[https://github.com/mbrignall][github]]  | 
+  @@html:<i class="fa fa-phone"></i>@@ 07766027602
+</div>
 
 #+ATTR_HTML: :class center
 ~112 Aubrey Road, Bristol, BS3 3EU~
