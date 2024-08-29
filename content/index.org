@@ -6,11 +6,14 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css">
 #+SETUPFILE: ../style.css.org
 
-#+BEGIN_CENTER
-󰊫 [[mailto:martinaloysiusbrignall@gmail.com][email]]  | 󰊤 [[https://github.com/mbrignall][github]]  | 󰄜 07766027602 
-
-~112 Aubrey Road, Bristol, BS3 3EU~
-#+END_CENTER
+#+BEGIN_HTML
+<div style="text-align: center;">
+  <p>
+    󰊫 [[mailto:martinaloysiusbrignall@gmail.com][email]]  | 󰊤 [[https://github.com/mbrignall][github]]  | 󰄜 07766027602
+  </p>
+  <p>~112 Aubrey Road, Bristol, BS3 3EU~</p>
+</div>
+#+END_HTML
 
 * ABOUT ME
 
@@ -81,5 +84,3 @@ better understand how best to apply these practices.
    - Google Labs/ Security Foundations
    - Immersive Labs
    - ACE Community Leader
-
-
