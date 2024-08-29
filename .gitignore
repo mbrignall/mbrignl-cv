@@ -3,11 +3,6 @@
 \#*\#
 .#*
 
-# CV files
-cv.html
-cv.pdf
-cv.tex
-
 # Org-mode temporary files
 *.org~  # Backup files
 *.org_archive  # Archived Org-mode files
