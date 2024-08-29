@@ -1,16 +1,17 @@
 #+TITLE: Martin Brignall
-#+ATTR_HTML: :width 250px
-[[file:./img/mbrignl.jpeg]]
 #+OPTIONS: toc:nil num:nil author:nil html-postamble:nil
 #+HTML_HEAD: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css">
 #+SETUPFILE: ../style.css.org
 
-#+ATTR_HTML: :class center
-- 󰊫 [[mailto:martinaloysiusbrignall@gmail.com][email]]  | 󰊤 [[https://github.com/mbrignall][github]]  | 󰄜 07766027602 
+#+ATTR_HTML: :width 250px :class center
+[[file:./img/mbrignl.jpeg]]
 
 #+ATTR_HTML: :class center
-- ~112 Aubrey Road, Bristol, BS3 3EU~
+󰊫 [[mailto:martinaloysiusbrignall@gmail.com][email]]  | 󰊤 [[https://github.com/mbrignall][github]]  | 󰄜 07766027602 
+
+#+ATTR_HTML: :class center
+112 Aubrey Road, Bristol, BS3 3EU~
 
 
 * ABOUT ME
