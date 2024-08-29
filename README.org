@@ -10,8 +10,8 @@ The CV is written in Org mode and automatically converted to HTML and PDF using 
 
 * How It Works
 
-1. **Org File**: The CV is authored in an Org file located in the =content= directory.
-2. **GitHub Actions**: On every push to the main branch, a GitHub Actions workflow:
+1. *Org File*: The CV is authored in an Org file located in the =content= directory.
+2. *GitHub Actions*: On every push to the main branch, a GitHub Actions workflow:
    - Converts the Org file to HTML using Emacs.
    - Converts the generated HTML to a PDF.
    - Saves both the HTML and PDF files in the =public= folder.
