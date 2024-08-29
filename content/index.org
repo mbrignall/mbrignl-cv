@@ -4,14 +4,15 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css">
 #+SETUPFILE: ../style.css.org
 
-#+ATTR_HTML: :width 250px :class center
+#+ATTR_HTML: :width 250px
+#+ATTR_HTML: :class center
 [[file:./img/mbrignl.jpeg]]
 
 #+ATTR_HTML: :class center
 󰊫 [[mailto:martinaloysiusbrignall@gmail.com][email]]  | 󰊤 [[https://github.com/mbrignall][github]]  | 󰄜 07766027602 
 
 #+ATTR_HTML: :class center
-112 Aubrey Road, Bristol, BS3 3EU~
+~112 Aubrey Road, Bristol, BS3 3EU~
 
 
 * ABOUT ME

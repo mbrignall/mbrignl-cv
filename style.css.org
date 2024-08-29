@@ -1,5 +1,3 @@
-Let's change this to a css file then:
-
 #+OPTIONS: org-html-head-include-default-style:nil
 
 #+HTML_HEAD: <style type="text/css">
