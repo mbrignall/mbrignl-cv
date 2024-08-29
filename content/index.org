@@ -15,6 +15,7 @@
 #+ATTR_HTML: :class center
 ~112 Aubrey Road, Bristol, BS3 3EU~
 
+@@html:<i class="fa fa-plus"></i>@@
 
 * ABOUT ME
 
