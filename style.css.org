@@ -6,7 +6,7 @@
 #+HTML_HEAD:   font-size: 14px;
 #+HTML_HEAD:   line-height: 1.5;
 #+HTML_HEAD:   color: #dcdccc;
-#+HTML_HEAD:   font-family: 'FiraMono Nerd Font', monospace;
+#+HTML_HEAD:   font-family: 'Fira Mono', monospace;
 #+HTML_HEAD:   margin: 0 auto;
 #+HTML_HEAD:   max-width: 800px;
 #+HTML_HEAD:   padding: 20px;
