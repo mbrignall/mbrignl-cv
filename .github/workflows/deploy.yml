@@ -22,9 +22,19 @@ jobs:
           keep_files: true
           commit_message: "Knit: Updated CV export"
 
-      - name: html to pdf
+      - name: Convert HTML to PDF
         uses: fifsky/html-to-pdf-action@master
         with:
           htmlFile: ./cv.html
           outputFile: ./resume.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+
+      - name: Commit and push generated files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add resume.pdf
+          git commit -m "Add generated resume PDF"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
