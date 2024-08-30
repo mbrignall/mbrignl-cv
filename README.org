@@ -2,6 +2,8 @@
 #+AUTHOR: Martin Brignall
 #+OPTIONS: toc:nil
 
+[[Org Mode][https://img.shields.io/badge/orgmode-%2377AA99.svg?style=for-the-badge&logo=org&logoColor=white]]
+
 * About This Repository
 
 This repository contains the source files and configuration for generating my CV in HTML format using Org mode. The HTML version is automatically deployed to GitHub Pages, and the PDF version can be generated manually if needed.
