@@ -63,7 +63,7 @@ Over the past 5 years, I have honed my skills in the DevOps/DevSecOps space. I c
 
 * INTERESTS/SKILLS
 - Home Lab | Proxmox | Containers (Docker)
-- WebDev | Django | Python
+- WebDev | Django | Python | HTMX
 - Terraform | Cloudflare
 - NixOS | Linux | Emacs
 - AWS | GCP | Postgres
