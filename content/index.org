@@ -19,11 +19,7 @@
 
 * ABOUT ME
 
-Over the past 5 years, I have honed my skills in the DevOps/DevSecOps space. I currently
-work as a Cyber Defence Engineer as escalated Incident Response. We deal with reports/alerts
-as broad as phishing/business email compromise to GuardDuty alerting or malware. I have a strong
-interest in the software developement pipeline. I love learning, and use self development to
-increase my understanding.
+Over the past 5 years, I have honed my skills in the DevOps/DevSecOps space. I currently work as a Cyber Defence Engineer in escalated Incident Response, handling reports and alerts ranging from phishing and business email compromise to GuardDuty/cloud alerting and malware. I have a strong interest in the software development pipeline and use tools like Terraform for infrastructure as code and NixOS for declarative system management. I am passionate about continuous learning and self-development to deepen my understanding.
 
 * EXPERIENCE
 
@@ -73,12 +69,7 @@ increase my understanding.
 - AWS | GCP | Postgres
 - Git | Atlassian/Jira
 
-For the last two years I've been managing a website that supports
-the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]]. This was the perfect opportunity
-to hone my web development skills and I chose to use Django/Python,
-home served using Proxmox and served to the web with Cloudflare. From
-here I began to approach my own CI/CD and automated deployments to
-better understand how best to apply these practices.
+For the last two years, I've been managing a website that supports the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]]. This experience provided the perfect opportunity to hone my web development skills, and I chose to use Django/Python for the project. The site is hosted on Proxmox and served to the web via Cloudflare. During this time, I also began implementing my own CI/CD pipelines and automated deployments, allowing me to deepen my understanding of best practices in these areas.
 
 * TRAINING/OTHER
    - Webdev Bootcamp
