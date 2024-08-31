@@ -62,7 +62,7 @@ Over the past 5 years, I have honed my skills in the DevOps/DevSecOps space. I c
    - Covid Office Cover
 
 * INTERESTS/SKILLS
-- Home Lab | Proxmox | Containers (Docker)
+- Home Lab | Proxmox | Containers (Docker/LXC)
 - WebDev | Django | Python | HTMX
 - Terraform | Cloudflare
 - NixOS | Linux | Emacs
