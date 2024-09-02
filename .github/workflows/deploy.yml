@@ -30,4 +30,4 @@ jobs:
           outputFile: ./public/mbcv.pdf
           pdfOptions: '{"format": "A4",
                         "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"},
-                        "scale": "4"}'    
+                        "scale": "4.0"}'    
