@@ -12,12 +12,12 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v1
 
-      - name: Install Emacs, Pandoc, and Minimal LaTeX
+      - name: Install Emacs
         run: |
           sudo apt update
           sudo apt install emacs-nox --yes
 
-      - name: Build the site and generate PDF
+      - name: Build the site
         run: ./build.sh
 
       - name: Publish generated content to GitHub Pages
