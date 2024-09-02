@@ -30,8 +30,8 @@
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
              :with-author nil           ;; Don't include author name
-             :with-creator nil            ;; Include Emacs and Org versions in footer
-             :with-toc nil                ;; Include a table of contents
+             :with-creator nil          ;; Do not include Emacs and Org versions in footer
+             :with-toc nil              ;; Don't include a table of contents
              :section-numbers nil       ;; Don't include section numbers
              :time-stamp-file nil)      ;; Don't include time stamp in file
        (list "org-site:static"
@@ -43,5 +43,13 @@
 
 ;; Generate the site output
 (org-publish-all t)
+
+;; Generate PDF from HTML using weasyprint
+(let ((html-file "./public/index.html")
+      (pdf-file "./public/mbcv.pdf"))
+  (if (and (file-exists-p html-file)
+           (executable-find "weasyprint"))
+      (shell-command (format "weasyprint %s %s" html-file pdf-file))
+    (message "Error: Either HTML file does not exist or weasyprint is not installed.")))
 
 (message "Build complete!")

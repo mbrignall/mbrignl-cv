@@ -13,7 +13,10 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Install Emacs
-        run: sudo apt install emacs-nox --yes
+        run: |
+          sudo apt update
+          sudo apt install emacs-nox --yes
+          sudo apt install weasyprint --yes
 
       - name: Build the site
         run: ./build.sh
