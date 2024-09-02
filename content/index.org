@@ -25,7 +25,7 @@ Over the past 5 years, I have honed my skills in the DevOps/DevSecOps space. I c
 
 ** *OVO Energy*, Bristol - Cyber Defence Engineer
 ~May 2024 to Present~
-   - Building a bond between ticketing system of our MSSP and OVO (saving 30k)
+   - Building a connection between ticketing systems (Jira to ServiceNow) of our MSSP and OVO (saving £30k)
    - Working with leading technologies in SOC/Threat Detection/SIEM
      - Google Chronicle/Workspace/SecOps 
      - Sublime Email Security
@@ -37,9 +37,9 @@ Over the past 5 years, I have honed my skills in the DevOps/DevSecOps space. I c
 
 ** *OVO Energy*, Bristol - Developer Tooling Specialist
 ~August 2022 - May 2024~
-   - Cloud services optimization (AWS, Google Cloud) for
+   - Cloud services optimization (AWS/GCP) for
      scalability, reliability, and targeted cost reduction
-   - Building automated vending for GCP projects as guardrails
+   - Building automated vending for GCP projects
    - Drive DevOps and DevEx practices, streamlining development
      workflows, and facilitating seamless collaboration between
      development and operations teams
@@ -49,10 +49,10 @@ Over the past 5 years, I have honed my skills in the DevOps/DevSecOps space. I c
 
 ** OVO Energy, Bristol - Enterprise Technology Specialist
    ~March 2021 - August 2022~
-   - Jira Cloud Administration for all Atlassian products
-   - Introduced zero-touch deployment using Mosyle, a pioneering MDM
+   - Administered and supported full Atlassian product suite
+   - Delivered zero-touch deployment using Mosyle, a pioneering MDM
      tool for Apple devices
-   - Linux device management solution including device scripting
+   - Linux device management solution including device scripting/hardening
 
 ** OVO Energy, Bristol - Tech Support Analyst
    ~June 2019 - August 2022~
@@ -69,7 +69,7 @@ Over the past 5 years, I have honed my skills in the DevOps/DevSecOps space. I c
 - AWS | GCP | Postgres
 - Git | Atlassian/Jira
 
-For the last two years, I've been managing a website that supports the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]]. This experience provided the perfect opportunity to hone my web development skills, and I chose to use Django/Python for the project. The site is hosted on Proxmox and served to the web via Cloudflare. During this time, I also began implementing my own CI/CD pipelines and automated deployments, allowing me to deepen my understanding of best practices in these areas.
+For the last two years, I've been managing a website that supports the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]]. This experience provided the perfect opportunity to hone my web development skills, and I chose to use Django/Python for the project. The site is hosted on Proxmox and served to the web via Cloudflare. During this time, I also began implementing my own CI/CD pipelines and automated deployments.
 
 * TRAINING/OTHER
    - Webdev Bootcamp
