@@ -36,7 +36,7 @@ jobs:
         with:
           htmlFile: ./index.html
           outputFile: ./mbcv.pdf
-          pdfOptions: '{"format": "A4", "scale": "0.4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+          pdfOptions: '{"format": "A4"}'
 
       - name: Commit and push PDF to gh-pages branch
         run: |
