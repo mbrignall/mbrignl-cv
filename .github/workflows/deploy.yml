@@ -28,6 +28,6 @@ jobs:
         uses: tecosaur/org-knit-action@v0.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
+          branch: main
           setup_file: ./style.css.org
           export: pdf
