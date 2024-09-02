@@ -27,5 +27,5 @@ jobs:
         uses: fifsky/html-to-pdf-action@master
         with:
           htmlFile: ./public/index.html
-          outputFile: ./public/mbcv.pdf
+          outputFile: ./mbcv.pdf
           pdf_options: '{"format": "A4", "scale": 0.4, "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
