@@ -15,7 +15,7 @@ jobs:
       - name: Install Emacs, Pandoc, and WeasyPrint
         run: |
           sudo apt update
-          sudo apt install emacs-nox pandoc --yes
+          sudo apt install emacs-nox pandoc texlive-full --yes
 
       - name: Build the site and generate PDF
         run: ./build.sh

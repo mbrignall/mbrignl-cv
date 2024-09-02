@@ -46,14 +46,14 @@
 ;; Generate the site output
 (org-publish-all t)
 
-;; Use ox-pandoc to convert Org file to PDF
+;; Use ox-pandoc to convert Org file to PDF via LaTeX
 (let ((org-file "./content/index.org")  ;; Path to your Org file
       (pdf-file "./public/mbcv.pdf"))   ;; Output PDF file path
   (if (and (file-exists-p org-file)
            (executable-find "pandoc"))
       (progn
-        ;; Export Org file to PDF using ox-pandoc
-        (org-pandoc-export-to-pdf nil org-file)
+        ;; Export Org file to PDF using ox-pandoc via LaTeX
+        (org-pandoc-export-to-latex-pdf nil org-file)
         ;; Rename the output file to match desired filename
         (rename-file (concat (file-name-sans-extension org-file) ".pdf") pdf-file t))
     (message "Error: Either Org file does not exist or Pandoc is not installed.")))
