@@ -48,7 +48,7 @@
 
 ;; Open the Org file in an Org-mode buffer and export to PDF
 (let ((org-file "./content/index.org")  ;; Path to your Org file
-      (output-dir "./public")           ;; Output directory for the PDF
+      (output-dir "./")           ;; Output directory for the PDF
       (pdf-file "index.pdf"))            ;; Output PDF file name
   (if (and (file-exists-p org-file)
            (executable-find "pandoc"))
