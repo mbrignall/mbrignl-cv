@@ -29,5 +29,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
-          setup-file: ./style.css.org
+          setup_file: ./style.css.org
           export: pdf
