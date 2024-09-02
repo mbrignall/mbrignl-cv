@@ -12,10 +12,15 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v1
 
-      - name: Install Emacs, Pandoc, and WeasyPrint
+      - name: Install Emacs, Pandoc, and Minimal LaTeX
         run: |
           sudo apt update
-          sudo apt install emacs-nox pandoc texlive-full --yes
+          sudo apt install emacs-nox pandoc \
+            texlive-latex-base \
+            texlive-fonts-recommended \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-xetex --yes  # Install minimal LaTeX packages for PDF conversion
 
       - name: Build the site and generate PDF
         run: ./build.sh
