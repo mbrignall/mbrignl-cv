@@ -1,4 +1,4 @@
-name: Publish to GitHub Pages
+name: Publish to GitHub Pages and Generate PDF
 
 on:
   push:
@@ -25,3 +25,21 @@ jobs:
         with:
           branch: gh-pages
           folder: public
+
+      - name: Check out gh-pages branch
+        run: |
+          git fetch origin gh-pages:gh-pages
+          git checkout gh-pages
+
+      - name: Convert HTML to PDF
+        uses: fifsky/html-to-pdf-action@master
+        with:
+          htmlFile: ./index.html
+          outputFile: ./mbcv.pdf
+          pdfOptions: '{"format": "A4", "scale": "0.4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+
+      - name: Commit and push PDF to gh-pages branch
+        run: |
+          git add ./mbcv.pdf
+          git commit -m "Add generated PDF"
+          git push origin gh-pages
