@@ -44,12 +44,28 @@
 ;; Generate the site output
 (org-publish-all t)
 
-;; Generate PDF from HTML using weasyprint
+;; Add CSS for PDF adjustments
+(with-temp-buffer
+  (insert "
+  <style>
+    @page {
+      margin: 0; /* Remove white border */
+      size: A4; /* Set page size to A4 */
+    }
+    body {
+      margin: 0;
+      padding: 10mm; /* Adjust padding to control content fit */
+    }
+  </style>
+  ")
+  (write-region (point-min) (point-max) "./public/print.css" t))
+
+;; Generate PDF from HTML using weasyprint with specific styles
 (let ((html-file "./public/index.html")
       (pdf-file "./public/mbcv.pdf"))
   (if (and (file-exists-p html-file)
            (executable-find "weasyprint"))
-      (shell-command (format "weasyprint %s %s" html-file pdf-file))
+      (shell-command (format "weasyprint %s %s -s ./public/print.css" html-file pdf-file))
     (message "Error: Either HTML file does not exist or weasyprint is not installed.")))
 
 (message "Build complete!")

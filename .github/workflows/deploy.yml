@@ -26,11 +26,3 @@ jobs:
         with:
           branch: gh-pages
           folder: public
-          
-      - name: Export Org files to GitHub Pages
-        uses: tecosaur/org-knit-action@v0.3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          setup_file: ./style.css.org
-          export: pdf
