@@ -9,16 +9,15 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out
+      - name: Check out the repository
         uses: actions/checkout@v1
 
-      - name: Install Emacs
+      - name: Install Emacs, Pandoc, and WeasyPrint
         run: |
           sudo apt update
-          sudo apt install emacs-nox --yes
-          sudo apt install weasyprint --yes
+          sudo apt install emacs-nox pandoc --yes
 
-      - name: Build the site
+      - name: Build the site and generate PDF
         run: ./build.sh
 
       - name: Publish generated content to GitHub Pages

@@ -12,9 +12,11 @@
 
 ;; Install dependencies
 (package-install 'htmlize)
+(package-install 'ox-pandoc) ;; Install ox-pandoc for Org to Pandoc conversion
 
 ;; Load the publishing system
 (require 'ox-publish)
+(require 'ox-pandoc)
 
 ;; Customize the HTML output
 (setq org-html-validation-link nil            ;; Don't show validation link
@@ -44,28 +46,16 @@
 ;; Generate the site output
 (org-publish-all t)
 
-;; Add CSS for PDF adjustments
-(with-temp-buffer
-  (insert "
-  <style>
-    @page {
-      margin: 0; /* Remove white border */
-      size: A4; /* Set page size to A4 */
-    }
-    body {
-      margin: 0;
-      padding: 10mm; /* Adjust padding to control content fit */
-    }
-  </style>
-  ")
-  (write-region (point-min) (point-max) "./public/print.css" t))
-
-;; Generate PDF from HTML using weasyprint with specific styles
-(let ((html-file "./public/index.html")
-      (pdf-file "./public/mbcv.pdf"))
-  (if (and (file-exists-p html-file)
-           (executable-find "weasyprint"))
-      (shell-command (format "weasyprint %s %s -s ./public/print.css" html-file pdf-file))
-    (message "Error: Either HTML file does not exist or weasyprint is not installed.")))
+;; Use ox-pandoc to convert Org file to PDF
+(let ((org-file "./content/index.org")  ;; Path to your Org file
+      (pdf-file "./public/mbcv.pdf"))   ;; Output PDF file path
+  (if (and (file-exists-p org-file)
+           (executable-find "pandoc"))
+      (progn
+        ;; Export Org file to PDF using ox-pandoc
+        (org-pandoc-export-to-pdf nil org-file)
+        ;; Rename the output file to match desired filename
+        (rename-file (concat (file-name-sans-extension org-file) ".pdf") pdf-file t))
+    (message "Error: Either Org file does not exist or Pandoc is not installed.")))
 
 (message "Build complete!")
