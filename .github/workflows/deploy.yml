@@ -36,7 +36,7 @@ jobs:
         with:
           htmlFile: ./index.html
           outputFile: ./mbcv.pdf
-          pdfOptions: '{"scale": "1.0"}'
+          pdfOptions: '{"scale": 0.4}'
 
       - name: Commit and push PDF to gh-pages branch
         run: |
