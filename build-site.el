@@ -49,7 +49,7 @@
 ;; Open the Org file in an Org-mode buffer and export to PDF
 (let ((org-file "./content/index.org")  ;; Path to your Org file
       (output-dir "./public")           ;; Output directory for the PDF
-      (pdf-file "mbcv.pdf"))            ;; Output PDF file name
+      (pdf-file "index.pdf"))            ;; Output PDF file name
   (if (and (file-exists-p org-file)
            (executable-find "pandoc"))
       (with-current-buffer (find-file-noselect org-file) ;; Open file in a buffer
