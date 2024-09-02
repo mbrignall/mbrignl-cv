@@ -46,17 +46,21 @@
 ;; Generate the site output
 (org-publish-all t)
 
-;; Open the Org file in an Org-mode buffer
+;; Open the Org file in an Org-mode buffer and export to PDF
 (let ((org-file "./content/index.org")  ;; Path to your Org file
-      (pdf-file "./public/mbcv.pdf"))   ;; Output PDF file path
+      (output-dir "./public")           ;; Output directory for the PDF
+      (pdf-file "mbcv.pdf"))            ;; Output PDF file name
   (if (and (file-exists-p org-file)
            (executable-find "pandoc"))
       (with-current-buffer (find-file-noselect org-file) ;; Open file in a buffer
         (org-mode)  ;; Ensure buffer is in Org mode
         ;; Export Org file to PDF using ox-pandoc via LaTeX
         (org-pandoc-export-to-latex-pdf)
-        ;; Rename the output file to match desired filename
-        (rename-file (concat (file-name-sans-extension org-file) ".pdf") pdf-file t))
+        ;; Move the generated PDF to the correct output directory
+        (let ((generated-pdf (concat (file-name-sans-extension org-file) ".pdf")))
+          (if (file-exists-p generated-pdf)
+              (rename-file generated-pdf (expand-file-name pdf-file output-dir) t)
+            (message "Error: PDF generation failed; file does not exist: %s" generated-pdf))))
     (message "Error: Either Org file does not exist or Pandoc is not installed.")))
 
 (message "Build complete!")
