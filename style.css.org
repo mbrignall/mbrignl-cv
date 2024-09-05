@@ -51,6 +51,26 @@
 #+HTML_HEAD:   margin-left: auto;
 #+HTML_HEAD:   margin-right: auto;
 #+HTML_HEAD: }
+#+HTML_HEAD: .download-button {
+#+HTML_HEAD:   text-align: center;
+#+HTML_HEAD:   margin: 20px 0;
+#+HTML_HEAD: }
+#+HTML_HEAD: .download-button .btn {
+#+HTML_HEAD:   background-color: #4CAF50; /* Green background */
+#+HTML_HEAD:   border: none; /* Remove border */
+#+HTML_HEAD:   color: white; /* White text */
+#+HTML_HEAD:   padding: 10px 20px; /* Some padding */
+#+HTML_HEAD:   text-align: center; /* Center the text (if you want) */
+#+HTML_HEAD:   text-decoration: none; /* Remove underline */
+#+HTML_HEAD:   display: inline-block; /* Make the button inline-block */
+#+HTML_HEAD:   font-size: 16px; /* Increase font size */
+#+HTML_HEAD:   border-radius: 5px; /* Rounded corners */
+#+HTML_HEAD:   cursor: pointer; /* Mouse pointer on hover */
+#+HTML_HEAD:   transition: background-color 0.3s ease; /* Smooth background color change */
+#+HTML_HEAD: }
+#+HTML_HEAD: .download-button .btn:hover {
+#+HTML_HEAD:   background-color: #45a049; /* Darker green on hover */
+#+HTML_HEAD: }
 #+HTML_HEAD: code {
 #+HTML_HEAD:   background-color: #2e3440;
 #+HTML_HEAD:   color: #dcdccc;

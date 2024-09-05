@@ -78,3 +78,12 @@ For the last two years, I've been managing a website that supports the [[https:/
    - Google Labs/ Security Foundations
    - Immersive Labs
    - Atlassian Community Leader
+
+* DOWNLOAD CV
+
+#+ATTR_HTML: :class center
+@@html:<div class="download-button">@@
+@@html:<a href="https://mbrignall.github.io/mbrignl-cv/mbcv.pdf" class="btn" download>@@
+@@html:<i class="fa fa-file-pdf"></i> Download PDF@@
+@@html:</a>@@
+@@html:</div>@@
