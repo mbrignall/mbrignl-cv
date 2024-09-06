@@ -19,7 +19,7 @@
 
 * ABOUT ME
 
-Over the past 5 years, I’ve developed expertise in DevOps/DevSecOps, currently working as a Cyber Defence Engineer in escalated Incident Response. I handle a range of alerts, from phishing and email compromises to cloud security issues like GuardDuty and malware. I’m passionate about the software development pipeline, utilizing tools like Terraform for infrastructure as code and NixOS for system management. I’m always eager to explore new technologies, often using my home lab for hands-on learning.
+Over the past 5 years, I’ve developed expertise in DevOps/DevSecOps, currently working as a Cyber Defence Engineer in escalated Incident Response. I handle a range of alerts, from phishing and email compromises to cloud security issues like GuardDuty and malware. I’m passionate about the software development pipeline, utilising tools like Terraform for infrastructure as code and NixOS for system management. I’m always eager to explore new technologies, often using my home lab for hands-on learning.
 
 A Linux enthusiast, I’ve spent the last two years exploring NixOS/Nix-Darwin to manage my development environment declaratively. Check out my [[https://github.com/mbrignall][GitHub]] for examples.
 
@@ -72,7 +72,8 @@ For the past two years, I’ve also managed the website for the [[https://sunday
 - Terraform | Cloudflare
 - NixOS | Linux (Debian/Ubuntu/RHEL) | Immutable/Declarable systems
 - Home Lab | Proxmox | Containers (Docker/LXC)
-- Git | Atlassian/Jira | Emacs
+- Git | GitHub Actions | CircleCI
+- Atlassian/Jira | Emacs
 
 * TRAINING/OTHER
    - Webdev Bootcamps
