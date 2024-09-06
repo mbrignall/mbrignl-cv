@@ -19,7 +19,11 @@
 
 * ABOUT ME
 
-Over the past 5 years, I have honed my skills in the DevOps/DevSecOps space. I currently work as a Cyber Defence Engineer in escalated Incident Response, handling reports and alerts ranging from phishing and business email compromise to GuardDuty/cloud alerting and malware. I have a strong interest in the software development pipeline and use tools like Terraform for infrastructure as code and NixOS for declarative system management. I am passionate about continuous learning and self-development to deepen my understanding.
+Over the past 5 years, I’ve developed expertise in DevOps/DevSecOps, currently working as a Cyber Defence Engineer in escalated Incident Response. I handle a range of alerts, from phishing and email compromises to cloud security issues like GuardDuty and malware. I’m passionate about the software development pipeline, utilizing tools like Terraform for infrastructure as code and NixOS for system management. I’m always eager to explore new technologies, often using my home lab for hands-on learning.
+
+A Linux enthusiast, I’ve spent the last two years exploring NixOS/Nix-Darwin to manage my development environment declaratively. Check out my [[https://github.com/mbrignall][GitHub]] for examples.
+
+For the past two years, I’ve also managed the website for the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]], using Django/Python on Proxmox, with CI/CD pipelines and automated deployments via Cloudflare.
 
 * EXPERIENCE
 
@@ -62,21 +66,20 @@ Over the past 5 years, I have honed my skills in the DevOps/DevSecOps space. I c
    - Covid Office Cover
 
 * INTERESTS/SKILLS
-- Home Lab | Proxmox | Containers (Docker/LXC)
 - WebDev | Django | Python | HTMX
+- AWS | GCP
+- Postgres | Sqlite
 - Terraform | Cloudflare
-- NixOS | Linux | Emacs
-- AWS | GCP | Postgres
-- Git | Atlassian/Jira
-
-For the last two years, I've been managing a website that supports the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]]. This experience provided the perfect opportunity to hone my web development skills, and I chose to use Django/Python for the project. The site is hosted on Proxmox and served to the web via Cloudflare. During this time, I also began implementing my own CI/CD pipelines and automated deployments.
+- NixOS | Linux (Debian/Ubuntu/RHEL) | Immutable/Declarable systems
+- Home Lab | Proxmox | Containers (Docker/LXC)
+- Git | Atlassian/Jira | Emacs
 
 * TRAINING/OTHER
-   - Webdev Bootcamp
+   - Webdev Bootcamps
    - AWS Developer 
    - Jira fundamentals and Atlassian University
    - Google Labs/ Security Foundations
-   - Immersive Labs
+   - Immersive Labs/ HackTheBox
    - Atlassian Community Leader
 
 * DOWNLOAD CV
