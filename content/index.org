@@ -70,7 +70,7 @@ For the past two years, I’ve also managed the website for the [[https://sunday
 - AWS | GCP
 - Postgres | Sqlite
 - Terraform | Cloudflare
-- NixOS | Debian/Ubuntu/RHEL | Immutable/Declarable | Shell
+- NixOS | Immutable/Declarable | Debian/Ubuntu/RHEL | Shell
 - Home Lab | Proxmox | Containers (Docker/LXC)
 - Git | GitHub Actions | CircleCI
 - Atlassian/Jira | Emacs
