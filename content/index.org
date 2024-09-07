@@ -66,22 +66,22 @@ For the past two years, I’ve also managed the website for the [[https://sunday
    - Covid Office Cover
 
 * INTERESTS/SKILLS
-- Django | Python | HTMX | JS/TS | Node
-- AWS | GCP
-- Postgres | Sqlite
-- Terraform | Cloudflare
-- NixOS | Immutable/Declarable | Debian/Ubuntu/RHEL | Shell
-- Home Lab | Proxmox | Containers (Docker/LXC)
-- Git | GitHub Actions | CircleCI
-- Atlassian/Jira | Emacs
+- *Programming & Web Development*: Django | Python | HTMX | JavaScript/TypeScript | Node.js
+- *Cloud & Infrastructure*: AWS | GCP | Terraform | Cloudflare
+- *Security & Detection*: Detection Engineering | SIEM/SOC | Threat Hunting
+- *Databases*: Postgres | SQLite
+- *Operating Systems*: NixOS | Debian/Ubuntu/RHEL
+- *Development Tools*: Git | GitHub Actions | CircleCI
+- *Virtualization & Containers*: Proxmox | Docker | LXC | Home Lab
+- *Productivity & Workflow*: Atlassian/Jira | Emacs | Shell
+
 
 * TRAINING/OTHER
-   - Webdev Bootcamps
-   - AWS Developer 
-   - Jira fundamentals and Atlassian University
-   - Google Labs/ Security Foundations
-   - Immersive Labs/ HackTheBox
-   - Atlassian Community Leader
+- *Web Development*: Webdev Bootcamps
+- *Cloud & Security*: AWS Developer | Google Labs/Security Foundations | Immersive Labs/HackTheBox
+- *Productivity & Tools*: Jira Fundamentals | Atlassian University
+- *Community*: Atlassian Community Leader
+
 
 * DOWNLOAD CV
 
