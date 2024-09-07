@@ -66,11 +66,11 @@ For the past two years, I’ve also managed the website for the [[https://sunday
    - Covid Office Cover
 
 * INTERESTS/SKILLS
-- WebDev | Django | Python | HTMX | Shell
+- Django | Python | HTMX | JS/TS | Node
 - AWS | GCP
 - Postgres | Sqlite
 - Terraform | Cloudflare
-- NixOS | Linux (Debian/Ubuntu/RHEL) | Immutable/Declarable systems
+- NixOS | Debian/Ubuntu/RHEL | Immutable/Declarable | Shell
 - Home Lab | Proxmox | Containers (Docker/LXC)
 - Git | GitHub Actions | CircleCI
 - Atlassian/Jira | Emacs
