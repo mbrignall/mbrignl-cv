@@ -64,7 +64,7 @@ For the past two years, I’ve also managed the website for the [[https://sunday
      enhanced productivity
    - Service Desk - Front Line Support
    - Covid Office Cover
-
+     
 * INTERESTS/SKILLS
 - *Programming & Web Development*: Django | Python | HTMX | JavaScript/TypeScript | Node.js
 - *Cloud & Infrastructure*: AWS | GCP | Terraform | Cloudflare
@@ -76,13 +76,11 @@ For the past two years, I’ve also managed the website for the [[https://sunday
 - *Virtualization & Containers*: Proxmox | Docker | LXC | Home Lab
 - *Productivity & Workflow*: Atlassian/Jira | Emacs | Shell
 
-
 * TRAINING/OTHER
 - *Web Development*: Webdev Bootcamps
 - *Cloud & Security*: AWS Developer | Google Labs/Security Foundations | Immersive Labs/HackTheBox
 - *Productivity & Tools*: Jira Fundamentals | Atlassian University
 - *Community*: Atlassian Community Leader
-
 
 * DOWNLOAD CV
 
