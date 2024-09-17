@@ -42,6 +42,8 @@ For the past two years, I’ve also managed the website for the [[https://sunday
 ~August 2022 - May 2024~
    - Cloud services optimization (AWS/GCP) for
      scalability, reliability, and targeted cost reduction
+   - Monitoring tools like Datadog and Grafana
+   - CI/CD and Automation, CircleCI and GitHub Actions
    - Building automated vending for GCP projects
    - Contributed code to internal developer platform (Backstage)
    - Champion collaboration and knowledge sharing within the
