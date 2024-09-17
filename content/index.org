@@ -19,11 +19,11 @@
 ~Bristol, BS3~
 
 * ABOUT ME
-Over the past 5 years, I’ve developed expertise in DevOps/DevSecOps, currently working as a Cyber Defence Engineer in escalated Incident Response. I handle a range of alerts, from phishing and email compromises to cloud security issues like GuardDuty and malware. I’m passionate about the software development pipeline, utilising tools like Terraform for infrastructure as code and NixOS for system management. I’m always eager to explore new technologies, often using my home lab for hands-on learning.
+Over the past 5 years, I’ve developed expertise in DevOps/DevSecOps, currently working as a Cyber Defence Engineer in escalated Incident Response. I handle a range of alerts, from phishing and email compromises to cloud security issues like GuardDuty and malware. I’m passionate about the software development pipeline, utilising tools like Terraform for infrastructure as code and building automations into CI/CD. I’m always eager to explore new technologies, often using my home lab for hands-on learning.
 
 A Linux enthusiast, I’ve spent the last two years exploring NixOS/Nix-Darwin to manage my development environment declaratively. Check out my [[https://github.com/mbrignall][GitHub]] for examples. I am familiar with command line tools, navigating filesystems and shell scripting.
 
-For the past two years, I’ve also managed the website for the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]], using Django/Python on Proxmox, with CI/CD pipelines and automated deployments via Cloudflare.
+For the past two years, I’ve also managed the website for the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]], using Django/Python on Proxmox, with CI/CD pipelines and automated deployments via Cloudflare. In addition to this I've been helping the team with their digital transformation moving from paper and a Google sheet to full automated invoicing/payment management via the site, python and Stripe API.
 
 * EXPERIENCE
 ** *OVO Energy*, Bristol - Cyber Defence Engineer
@@ -33,9 +33,9 @@ For the past two years, I’ve also managed the website for the [[https://sunday
      - Google Chronicle/Workspace/SecOps 
      - Sublime Email Security
      - CrowdStrike
-     - GuardDuty
+     - Elastic/Kibana
      - Tines (Security Automation)
-     - Wiz
+     - Wiz/Cloud monitoring
    - Escalated Incident Response (Blue Team)
 
 ** *OVO Energy*, Bristol - Developer Tooling Specialist
@@ -43,9 +43,7 @@ For the past two years, I’ve also managed the website for the [[https://sunday
    - Cloud services optimization (AWS/GCP) for
      scalability, reliability, and targeted cost reduction
    - Building automated vending for GCP projects
-   - Drive DevOps and DevEx practices, streamlining development
-     workflows, and facilitating seamless collaboration between
-     development and operations teams
+   - Contributed code to internal developer platform (Backstage)
    - Champion collaboration and knowledge sharing within the
      engineering community
    - Vendor engagement and billing/cost reconciliation
@@ -65,11 +63,11 @@ For the past two years, I’ve also managed the website for the [[https://sunday
    - Covid Office Cover
      
 * INTERESTS/SKILLS
-- *Programming & Web Development*: Django | Python | HTMX | JavaScript/TypeScript | Node.js
+- *Programming & Web Development*: Django | Python | HTMX | JavaScript/TypeScript | Node
 - *Cloud & Infrastructure*: AWS | GCP | Terraform | Cloudflare
 - *Security & Detection*: Detection Engineering | SIEM/SOC | Threat Hunting
 - *Databases*: Postgres | SQLite
-- *Monitoring & Alerting*: Grafana | Datadog | Chronicle
+- *Monitoring & Alerting*: Grafana | Datadog | Chronicle | Elastic/Kibana
 - *Operating Systems*: NixOS | Debian/Ubuntu/RHEL
 - *Development Tools*: Git | GitHub Actions | CircleCI
 - *Virtualization & Containers*: Proxmox | Docker | LXC | Home Lab
