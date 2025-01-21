@@ -19,11 +19,15 @@
 ~Bristol, BS3~
 
 * ABOUT ME
-Over the past 5 years, I’ve developed expertise in DevOps/DevSecOps, currently working as a Cyber Defence Engineer in escalated Incident Response. I handle a range of alerts, from phishing and email compromises to cloud security issues like GuardDuty and malware. I’m passionate about the software development pipeline, utilising tools like Terraform for infrastructure as code and building automations into CI/CD. I’m always eager to explore new technologies, often using my home lab for hands-on learning.
+Over the past 5 years, I’ve developed expertise in DevOps/DevSecOps and am currently working as a Cyber Defence Engineer. I handle a range of alerts, from phishing and email, end user compute and IAM to cloud security reports from GuardDuty/SCC/Google Sec Ops.
 
-A Linux enthusiast, I’ve spent the last two years exploring NixOS/Nix-Darwin to manage my development environment declaratively. Check out my [[https://github.com/mbrignall][GitHub]] for examples. I am familiar with command line tools, navigating filesystems and shell scripting.
+I’m passionate about the software development pipeline and building secure software, utilising tools like Terraform for infrastructure as code and building automations in CI/CD. I’m always eager to explore new technologies, often using my home lab for hands-on learning.
 
-For the past two years, I’ve also managed the website for the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]], using Django/Python on Proxmox, with CI/CD pipelines and automated deployments via Cloudflare. In addition to this I've been helping the team with their digital transformation moving from paper and a Google sheet to full automated invoicing/payment management via the site, python and Stripe API.
+A Linux enthusiast, I’ve recently been exploring NixOS/Nix-Darwin to manage my development environment declaratively. I am familiar with command line tools, navigating filesystems and shell scripting.
+
+For the past two years, I’ve also managed the website for the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]], built with Django/Python, with a fully fledged CI/CD pipeline and automated deployments.
+
+I've also taken part in a range of community events in the local Bristol area and spoke at the Atlassian Team yearly event in Las Vegas.
 
 * EXPERIENCE
 ** *OVO Energy*, Bristol - Cyber Defence Engineer
@@ -51,14 +55,14 @@ For the past two years, I’ve also managed the website for the [[https://sunday
    - Vendor engagement and billing/cost reconciliation
 
 ** OVO Energy, Bristol - Enterprise Technology Specialist
-   ~March 2021 - August 2022~
+~March 2021 - August 2022~
    - Administered and supported full Atlassian product suite
    - Delivered zero-touch deployment using Mosyle, a pioneering MDM
      tool for Apple devices
    - Linux device management solution including device scripting/hardening
 
 ** OVO Energy, Bristol - Tech Support Analyst
-   ~June 2019 - August 2022~
+~June 2019 - August 2022~
    - Provided technical support and automated Jira projects for
      enhanced productivity
    - Service Desk - Front Line Support
@@ -72,7 +76,7 @@ For the past two years, I’ve also managed the website for the [[https://sunday
 - *Monitoring & Alerting*: Grafana | Datadog | Chronicle | Elastic/Kibana
 - *Operating Systems*: NixOS | Debian/Ubuntu/RHEL
 - *Development Tools*: Git | GitHub Actions | CircleCI
-- *Virtualization & Containers*: Proxmox | Docker | LXC | Home Lab
+- *Virtualisation & Containers*: Proxmox | Docker | LXC | Home Lab
 - *Productivity & Workflow*: Atlassian/Jira | Emacs | Shell
 
 * TRAINING/OTHER
