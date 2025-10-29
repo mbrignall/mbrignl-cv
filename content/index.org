@@ -25,9 +25,7 @@ I’m passionate about the software development pipeline and building secure sof
 
 A Linux enthusiast, I’ve recently been exploring NixOS/Nix-Darwin to manage my development environment declaratively. I am familiar with command line tools, navigating filesystems and shell scripting.
 
-For the past two years, I’ve also managed the website for the [[https://sundaymarket.marketmanager.app][Tobacco Factory Sunday Market]], built with Django/Python, with a fully fledged CI/CD pipeline and automated deployments.
-
-I've also taken part in a range of community events in the local Bristol area and spoke at the Atlassian Team yearly event in Las Vegas.
+I've also taken part in a range of community events in the local Bristol area and spoke at the Atlassian Team yearly event in Las Vegas. Recently completed a CTF event for HackTheBox where our team came in top 300 of 6000 teams.
 
 * EXPERIENCE
 ** *OVO Energy*, Bristol - Cyber Defence Engineer
@@ -76,14 +74,14 @@ I've also taken part in a range of community events in the local Bristol area an
 - *Monitoring & Alerting*: Grafana | Datadog | Chronicle | Elastic/Kibana
 - *Operating Systems*: NixOS | Debian/Ubuntu/RHEL
 - *Development Tools*: Git | GitHub Actions | CircleCI
-- *Virtualisation & Containers*: Proxmox | Docker | LXC | Home Lab
+- *Virtualisation & Containers*: Proxmox | Docker | LXC | Kubernetes
 - *Productivity & Workflow*: Atlassian/Jira | Emacs | Shell
 
 * TRAINING/OTHER
 - *Web Development*: Webdev Bootcamps
 - *Cloud & Security*: AWS Developer | Google Labs/Security Foundations | Immersive Labs/HackTheBox
 - *Productivity & Tools*: Jira Fundamentals | Atlassian University
-- *Community*: Atlassian Community Leader
+- *Community*: OWASP and ImmersiveLabs events
 
 * DOWNLOAD CV
 #+ATTR_HTML: :class center
