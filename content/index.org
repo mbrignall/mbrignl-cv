@@ -28,7 +28,7 @@ A Linux enthusiast, I’ve recently been exploring NixOS/Nix-Darwin to manage my
 I've also taken part in a range of community events in the local Bristol area and spoke at the Atlassian Team yearly event in Las Vegas. Recently completed a CTF event for HackTheBox where our team came in top 300 of 6000 teams.
 
 * EXPERIENCE
-** *OVO Energy*, Bristol - Cyber Defence Engineer
+** *OVO Energy*, Bristol - Senior Security Engineer
 ~May 2024 to Present~
    - Building a connection between ticketing systems (Jira to ServiceNow) of our MSSP and OVO (saving £30k)
    - Working with leading technologies in SOC/Threat Detection/SIEM
@@ -39,6 +39,7 @@ I've also taken part in a range of community events in the local Bristol area an
      - Tines (Security Automation)
      - Wiz/Cloud monitoring
    - Escalated Incident Response (Blue Team)
+   - Recently moved to Senior Security Engineer
 
 ** *OVO Energy*, Bristol - Developer Tooling Specialist
 ~August 2022 - May 2024~
